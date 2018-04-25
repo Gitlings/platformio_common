@@ -1,0 +1,10 @@
+[package]
+name = "platformio_common"
+version = "0.1.0"
+authors = ["mvlabat <mvlabat@gmail.com>"]
+
+[dependencies]
+stdweb = "0.4.4"
+
+[lib]
+crate-type = ["cdylib"]
